@@ -1,0 +1,222 @@
+/*changement de taille de h1,P quand c'est une smartphone*/
+@media (max-width:576px) 
+{
+    p{
+        font-size: 10px;
+     }
+    /*section produits nike largeur card*/
+    .card-nike,.card-nb,.card-adidas{
+         width:245px;
+    }
+    .accueil img{
+        width: 150px;
+    }
+}
+
+@media (min-width:576px)and (max-width: 792px){
+    .accueil img{
+        width: 150px;
+    }
+
+}
+/*section accueil*/
+.accueil{
+    background: transparent;
+    margin: auto;
+    width:100vw;
+    padding-top: 100px;
+    margin-bottom: 80px;
+    height: 40vh;
+   
+}
+
+/*section accueil titre*/
+.accueil h1{
+    font-family:'Raleway', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding-top: 30px;
+
+}
+/*section accueil sous-titre*/
+.accueil p{
+    font-family:'Raleway', sans-serif;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 55px;
+
+}
+
+/*image de fond*/
+main{
+    background-image: url('images/fond3.avif');
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    padding-bottom: 50px;
+    box-shadow: inset 5px 5px 13px #969696,
+            inset -5px -5px 13px #ffffff;
+   
+}
+        
+    
+/*section main changement de comportement d bouton pendant le survole */
+main .btn:hover{
+    border-radius: ;
+    background: #387ab7;
+    box-shadow: inset 16px 16px 32px #1d3f5f,
+            inset -16px -16px 32px #53b5ff;
+}
+/*section main style du bouton:border couleur ombre */
+main .btn{
+    border-radius: 38px;
+    background: #4dc571;
+    box-shadow: inset 16px 16px 32px #54c299,
+                inset -16px -16px 32px #095142;
+}
+
+/*font titre,sous-titre et paragraphe */
+h2,h4,p{
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+}
+
+/*soulignement titre des chaussures*/
+h4{
+    text-decoration:underline;
+}
+/*section barre de navigation*/
+header{
+    margin: auto;
+    width:100vw;
+    position: fixed;
+    background-color: black;
+    opacity:70%;
+    z-index:200;
+}
+
+
+/*section produits logo-adidas*/
+.logo-adidas{
+    display: flex;
+    background:linear-gradient(rgb(254, 108, 40),rgb(235, 99, 167));
+    border-radius: 8px;
+    box-shadow: inset 8px 8px 16px #919191,
+    inset -8px -8px 16px #ffffff;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    width:200px;
+    gap:15px;
+
+}
+
+.logo-adidas img{
+    width: 150px;
+}
+  /*section produits logo-nike*/ 
+.logo-nike{
+    border-radius: 8px;
+    background:linear-gradient(rgb(239, 232, 106),rgb(28, 185, 81));
+    box-shadow: inset 8px 8px 16px #919191,
+    inset -8px -8px 16px #ffffff;
+    display: flex;
+    align-items:center;
+    padding-left: 10px;
+    margin-left: 10px;
+    width:200px;
+    gap: 15px;
+       
+}
+
+.logo-nike img{
+    width:150px;
+}
+/*section produits logo-new-balance*/
+.logo-new-balance{
+    border-radius: 8px;
+    background:linear-gradient(rgb(169, 226, 226),rgb(82, 180, 187));
+    box-shadow: inset 8px 8px 16px #919191,
+    inset -8px -8px 16px #ffffff;
+    display: flex;
+    align-items:center;
+    padding-left: 10px;
+    margin-left: 10px;
+    width:200px;
+    gap: 15px;
+       
+}
+
+.logo-new-balance img{
+    width: 150px;
+}
+
+
+/*section produits alignement des contenues dans la carte*/
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+/*section produits comportement dela carte pendant le survole*/
+.card-adidas:hover{
+    border-radius: 8px;
+    background:linear-gradient(rgb(254, 108, 40),rgb(235, 99, 167));
+    box-shadow: inset 8px 8px 16px #912491,
+    inset -8px -8px 16px #ff5cff;
+}
+.card-nike:hover{
+    border-radius: 8px;
+    background:linear-gradient(rgb(239, 232, 106),rgb(28, 185, 81));
+    box-shadow: inset 8px 8px 16px #558f00,
+    inset -8px -8px 16px #d5ff00;
+}
+.card-nb:hover{
+    border-radius: 8px;
+    background:linear-gradient(rgb(169, 226, 226),rgb(82, 180, 187));
+    box-shadow: inset 8px 8px 16px #009091,
+    inset -8px -8px 16px #00ffff;
+}
+
+/*section produits style de la carte avec des ombres*/
+.card-adidas,.card-nike,.card-nb{
+    border-radius: 8px;
+    box-shadow: inset 8px 8px 16px #919191,
+    inset -8px -8px 16px #ffffff;
+
+}
+/*section produit nike ajoout padding */
+.card-img-top{
+   padding: 10px;
+   
+}
+
+/*section contact ombre et bordure*/
+.contact{
+    padding: 30px;
+    border-radius: 11px;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 13px #969696,
+            inset -5px -5px 13px #ffffff;
+    
+
+}
+/*section contact ombre de l'espace ecriture */
+.form-control{
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow:  29px 29px 59px #9c9c9c,
+             -29px -29px 59px #ffffff;
+}
+
+
+    
+
+
+
+
+
+
