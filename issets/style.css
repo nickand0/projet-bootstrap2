@@ -11,6 +11,12 @@
     .accueil img{
         width: 150px;
     }
+    .accueil{
+        background-image: url('images/fond3.avif');
+        background-size:cover;
+        background-attachment:fixed;
+        background-position: center;
+}
 }
 
 @media (min-width:576px)and (max-width: 792px){
@@ -25,7 +31,7 @@
     margin: auto;
     width:100vw;
     padding-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     height: 40vh;
    
 }
@@ -36,17 +42,7 @@
     font-size: 50px;
     color: rgb(255, 0, 0);
     text-align: center;
-    padding-top: 30px;
-
-}
-/*section accueil sous-titre*/
-.accueil p{
-    font-family:'Raleway', sans-serif;
-    font-size:30px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 55px;
+   
 
 }
 
